@@ -23,7 +23,7 @@ export default {
     aboutLeft,
     aboutRight,
     leftInfo,
-    rightInfo
+    rightInfo,
   },
 };
 </script>
@@ -39,11 +39,31 @@ export default {
   gap: 190px;
   margin-bottom: 100px;
 }
-.about_cont2{
+.about_cont2 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
-.about_cont2>div{
+.about_cont2 > div {
   width: calc(50% - 95px);
 }
+@media (max-width: 1300px) {
+  .about_cont {
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .about_cont2 > div {
+    width: 100%;
+  }
+}
+@media (max-width: 1100px) {
+  .about_cont {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+}
+
 </style>

@@ -24,15 +24,15 @@
             </div>
             <ul class="project_introtxt_wrap">
               <li>
-                <h2>주제:</h2>
-                <p>{{ cont.title }}</p>
+                <h2 class="f16">주제:</h2>
+                <p class="f16">{{ cont.title }}</p>
               </li>
               <li>
-                <h2>참여율:</h2>
-                <p>{{ cont.partici }}</p>
+                <h2 class="f16">참여율:</h2>
+                <p class="f16">{{ cont.partici }}</p>
               </li>
               <li>
-                <h2>사용기술:</h2>
+                <h2 class="f16">사용기술:</h2>
                 <div class="pro_stacks_wrap">
                   <p class="html_bg f12">{{ cont.html }}</p>
                   <p class="css_bg f12">{{ cont.css }}</p>
@@ -42,18 +42,18 @@
                 </div>
               </li>
               <li>
-                <h2>작업내용:</h2>
-                <p>
+                <h2 class="f16">작업내용:</h2>
+                <p class="f16">
                   {{ cont.content }}
                 </p>
               </li>
               <li>
-                <h2>배포링크:</h2>
-                <p><a v-bind:href="cont.projectLink">{{ cont.projectLink }}</a></p>
+                <h2 class="f16">배포링크:</h2>
+                <p class="f16"><a v-bind:href="cont.projectLink">{{ cont.projectLink }}</a></p>
               </li>
               <li>
-                <h2>깃허브:</h2>
-                <p><a v-bind:href="cont.projectLink">{{ cont.gitLink }}</a></p>
+                <h2 class="f16">깃허브:</h2>
+                <p class="f16"><a v-bind:href="cont.projectLink">{{ cont.gitLink }}</a></p>
               </li>
             </ul>
           </div>

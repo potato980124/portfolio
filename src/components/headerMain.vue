@@ -58,4 +58,19 @@ nav {
 .gnb > li {
   cursor: pointer;
 }
+@media (max-width: 820px) {
+  .logo_txt {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .gnb {
+    width: 100%;
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+  }
+}
 </style>

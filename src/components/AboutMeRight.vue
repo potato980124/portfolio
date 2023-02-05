@@ -26,6 +26,34 @@
           :slidesPerGroup="4"
           :loop="true"
           :loopFillGroupWithBlank="true"
+          :breakpoints="{
+            // set breakpoints here
+            1100: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+              slidesPerGroup: 4,
+            },
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+              slidesPerGroup: 4,
+            },
+            600: {
+              slidesPerView: 3,
+              spaceBetween: 60,
+              slidesPerGroup: 3,
+            },
+            300: {
+              slidesPerView: 2,
+              spaceBetween: 60,
+              slidesPerGroup: 2,
+            },
+            0: {
+              slidesPerView: 2,
+              spaceBetween: 60,
+              slidesPerGroup: 2,
+            },
+          }"
           :navigation="{
             nextEl: '.stacks-button-next',
             prevEl: '.stacks-button-prev',
@@ -50,7 +78,7 @@
                   'background-image': 'url(' + techstacksdata.stackImg + ')',
                 }"
               ></div>
-              <p class="stackText f12">{{ techstacksdata.stack }}</p>
+              <p class="stackText f16">{{ techstacksdata.stack }}</p>
             </div>
           </swiper-slide>
         </swiper>
@@ -196,5 +224,26 @@ export default {
 }
 .stackText {
   color: #a8a8a8;
+}
+@media (max-width: 1100px) {
+  .about_cont_right_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_cont_right_intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .techstacks {
+    width: 100%;
+  }
+  .techstacks_list {
+    width: 100%;
+    background-color: #e7e7e7;
+    border: 3px solid #f5f5f5;
+    border-radius: 10px;
+  }
 }
 </style>

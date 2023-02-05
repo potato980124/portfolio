@@ -37,6 +37,15 @@ main {
   padding-top: 110px;
 }
 section {
-  height: 100vh;
+  min-height: 100vh;
+}
+.projects{
+  margin-top: 50px;
+}
+.clone{
+  margin-top: 50px;
+}
+.contact{
+  margin-top: 50px;
 }
 </style>

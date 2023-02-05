@@ -1,0 +1,199 @@
+.padding80 {
+  padding: 0 80px;
+  box-sizing: border-box;
+}
+.f12 {
+  font-size: 12px;
+}
+.f14 {
+  font-size: 14px;
+}
+.f16 {
+  font-size: 16px;
+}
+.f18 {
+  font-size: 18px;
+}
+.f20 {
+  font-size: 20px;
+}
+.f22 {
+  font-size: 22px;
+}
+.f32 {
+  font-size: 32px;
+}
+.f60 {
+  font-size: 60px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 섹션2 부터 공통 타이틀 */
+.section_title {
+  font-weight: bold;
+  color: #424242;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #ededed;
+  box-sizing: border-box;
+}
+.section_title_txt {
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+.section_title_txt>img{
+    display: inline-block;
+    width: 32px;
+    margin-right: 20px;
+}
+
+/* 모달 */
+.moda_black_bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  padding: 80px;
+  box-sizing: border-box;
+}
+.modal_white_bg {
+  height: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 100px 100px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+.modal_close_btn{
+    position: fixed;
+    top: 100px;
+    right: 130px;
+    cursor: pointer;
+}
+.modal_sub_title{
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.modal_section_top_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.project_img{
+    width: calc(50% - 92px);
+}
+.project_img_bg{
+    width: 100%;
+    padding-top: 100%;
+    background-image: url(../../img/teamproject.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.project_introtxt_wrap{
+    width: calc(50% - 92px);
+}
+.project_introtxt_wrap>li{
+    display: flex;
+    margin-bottom: 10px;
+}
+.project_introtxt_wrap>li>h2{
+    flex: 2;
+}
+.project_introtxt_wrap>li>p{
+    flex: 8;
+}
+.pro_stacks_wrap{
+    flex: 8;
+}
+.pro_stacks_wrap{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.pro_stacks_wrap>p{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.html_bg{
+    background-color: #F1F0EF;
+}
+.css_bg{
+    background-color: #E3F2FB;
+}
+.java_bg{
+    background-color: #FEF5E6;
+}
+.node_bg{
+    background-color: #F9EEE2;
+}
+.sql_bg{
+    background-color: #F1F0EF;
+}
+
+
+.projects_cont_wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.projects_cont_wrap > li {
+  position: relative;
+  width: calc(25% - 40px);
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 0.5s linear;
+}
+
+/* 프로젝트,클론코딩 공통 */
+.projects_cont_img {
+  width: 100%;
+}
+.projects_cont_img > img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: all 1.2s linear;
+  transform: translateY(0);
+}
+.projects_cont_wrap > li{
+  cursor: pointer;
+}
+.projects_cont_wrap > li:hover {
+  transform: scale(1.05);
+}
+.projects_cont_wrap > li:hover  .projects_cont_img > img {
+  transform: translateY(-50%);
+}
+.projects_cont_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  padding: 40px 0;
+  border-radius: 0 0 10px 10px;
+  box-sizing: border-box;
+}
+.projects_cont_txt > h2 {
+  font-weight: bold;
+}
+.projects_cont_txt > p {
+  font-weight: lighter;
+}
+@media(max-width:1100px){
+  .padding80 {
+    padding: 0 40px;
+    box-sizing: border-box;
+  }
+}
