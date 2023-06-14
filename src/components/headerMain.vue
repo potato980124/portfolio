@@ -9,9 +9,6 @@
         <li @click="goSection" data-target="projects" class="gotosection">
           Projects
         </li>
-        <li @click="goSection" data-target="clone" class="gotosection">
-          CloneCoding
-        </li>
         <li @click="goSection" data-target="contact" class="gotosection">
           Contact
         </li>
@@ -43,7 +40,7 @@ export default {
 header {
   height: 60px;
   line-height: 60px;
-  font-weight: 700;
+  font-weight: 700; 
   border-bottom: 1px solid #f5f5f5;
   background-color: #fff;
 }

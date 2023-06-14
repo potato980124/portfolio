@@ -12,7 +12,6 @@
 import headerMain from "./components/headerMain.vue";
 import AboutMe from "./components/AboutMe.vue";
 import Projects from "./components/Projects.vue";
-import Clone from "./components/Clone.vue";
 import Contact from "./components/Contact.vue";
 
 export default {
@@ -21,7 +20,6 @@ export default {
     headerMain,
     AboutMe,
     Projects,
-    Clone,
     Contact,
   },
 };

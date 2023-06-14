@@ -92,17 +92,17 @@ export default {
       {
         type: "개인프로젝트",
         title: "피그말리온",
-        img: require("../../public/img/teamproject.png"),
+        img: require("../../public/img/pigmalionfull.png"),
       },
       {
         type: "개인프로젝트",
         title: "서문야시장 리뉴얼",
-        img: require("../../public/img/teamproject.png"),
+        img: require("../../public/img/seomoonfull.png"),
       },
       {
         type: "개인프로젝트",
         title: "포트폴리오",
-        img: require("../../public/img/teamproject.png"),
+        img: require("../../public/img/portfull.png"),
       },
       {
         type: "팀프로젝트",
@@ -117,13 +117,12 @@ export default {
     let ProjectsInfoCont = [
       {
         title: "피그말리온",
-        partici: "30%",
+        partici: "100%",
         html: "HTML",
         css: "CSS",
         java: "Javascript",
         node: "Node Js",
         sql: "MySql",
-        vue: "VUE",
         content:
           "부산문화관광축제위원회 사이트는 위원회에서 진행하는 축제들의 소개를 진행하는 사이트 였다.이 프로젝트에서 중점적으로 구현 하려고 했던 것은 기존 사이트에서 부족했던 디자인,동적, ui ux , 반응형 부분들이였다. 메인페이지를 좀 더 동적으로 디자인하여 축제라는 생동감 있는 컨텐츠들을 사용자들이 체감 할 수 있도록 표현 해줬다. 헤더 부분 또한 ui들이 난잡하여 접근성이 불편 하였는데 헤더의 내용들을 단축 시키고 필요한 서브 페이지들을 묶어 비교적 간단하게 구성 하였다.메인페이지의 전체적인 구성은 디자인적으로 트렌디한 첫섹션, 전체 축제들을 간략하게 소개할 수 있는 두번째 섹션,  가장 가까운 축제의 디데이와 간략한 내용으로 소개하는 세번째 섹션,공지사항과 새소식을 볼 수 있는 네번째 다섯번째 섹션, 주변 관광지를 소개 하는 여섯번째 섹션,패밀리사이트를 한눈에 보기쉽게 구성한 마지막 섹션으로 구성 했다.",
         projectLink: "https://github.com/potato980124",
